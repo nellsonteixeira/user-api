@@ -1,4 +1,4 @@
-module userapi.com
+module github.com/nellsonteixeira/user-api
 
 go 1.17
 
