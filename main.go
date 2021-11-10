@@ -47,7 +47,6 @@ func GetUser(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-
 	fmt.Fprint(w, "[]")
 }
 
