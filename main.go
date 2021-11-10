@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"userapi.com/models"
+	"github.com/nellsonteixeira/user-api/models"
 )
 
 var _users []*models.User
@@ -47,6 +47,7 @@ func GetUser(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+
 	fmt.Fprint(w, "[]")
 }
 
