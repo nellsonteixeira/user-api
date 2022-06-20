@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-
 	"github.com/gorilla/mux"
 	"github.com/nellsonteixeira/user-api/models"
 )
